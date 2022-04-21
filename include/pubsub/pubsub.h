@@ -14,7 +14,7 @@
 #include <zephyr.h>
 #include <init.h>
 
-#define MAX_CHANNELS 4
+#define MAX_CHANNELS PUBSUB_MAX_CHANNELS
 
 struct pubsub_topic_s {
 	bool init;
